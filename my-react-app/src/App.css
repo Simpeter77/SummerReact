@@ -1,0 +1,28 @@
+#appBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    min-height: 97.5vh;
+    background-color: rgb(190, 0, 0);
+}
+.appHeader h1{
+    font-size: 5rem;
+}
+.appButton button{
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border:none;
+    background-color: black;
+    color: white;
+}
+.appButton button a{
+    color:white
+}
+.appButton button:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+

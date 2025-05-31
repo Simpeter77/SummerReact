@@ -1,0 +1,30 @@
+/* Nav.css */
+.navbar {
+  background-color: #000000;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index:999;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #00ff99;
+  transform: scale(1.05);
+}
